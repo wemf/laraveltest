@@ -1,0 +1,37 @@
+.tool {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    font-size: 1em;
+    background: #fff;
+    margin: 15px 0px;
+    box-shadow: 0px 0px 10px #ff0000;
+    clear: both;
+}
+
+.tool::after {
+    content: '';
+    border-bottom: 15px solid #fff;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: absolute;
+    left: 5%;
+    top: -14px;
+}
+
+.tool p {
+    font-size: 1em !important;
+    margin: 0 !important;
+}
+
+.tool-hide {
+    display: none;
+}
+
+.tool-visible {
+    display: block;
+}

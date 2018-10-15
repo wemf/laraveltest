@@ -1,0 +1,39 @@
+td.details-control {
+    background: url('../../../images/dataTables/details_open.png') no-repeat center center !important;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url("../../../images/dataTables/details_close.png") no-repeat center center !important;
+}
+table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+    background-color: #ffffff !important;
+}
+
+table.dataTable.hover tbody tr, table.dataTable.display tbody tr {
+    background-color: #f6f6f6 !important;
+}
+
+#datatable_modulo > tbody > tr > td{
+    padding: 0 !important;
+}
+
+#datatable_modulo > tbody > tr > td input[type="checkbox"]{
+    cursor: pointer;
+}
+
+#datatable_modulo > tbody > tr[role="row"] > td{
+    padding: 8px 10px !important;
+}
+
+#datatable_modulo > thead > tr > th:nth-child(1){
+    width: 10% !important;
+}
+.row-1 {
+    margin-bottom: 10px;
+}
+
+#role{
+    width: 250px;
+    display: inline-block;
+    margin-right: 10px;
+}

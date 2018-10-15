@@ -1,0 +1,148 @@
+.description {
+	padding-left: 15px;
+	border-left: 2px solid #000;
+}
+
+.description h3 {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.description p {
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+.wrapper {
+	/* margin-bottom: 20px; */
+	padding-left: 0px !important;
+	margin-top: -10px;
+}
+
+ul.breadcrumbs {  
+	padding: 0px;
+	font-size: 0px;
+	line-height: 0px;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	height: 40px;
+	margin-top: 10px;
+}
+
+ul.breadcrumbs li {
+	position: relative;
+	margin: 0px 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-image: none;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: top;
+	border-left: 1px solid #ccc;
+	transition: 0.3s ease;
+	margin-right: -3px;
+}
+
+ul.breadcrumbs li:hover:before {
+	border-left: 10px solid #d6d4d4;
+}
+
+ul.breadcrumbs li:hover a {
+	color: #757575;
+	background: #d6d4d4;
+}
+
+ul.breadcrumbs li:before {
+	content: "";
+	position: absolute;
+	right: -9px;
+	top: -1px;
+	z-index: 20;
+	border-left: 10px solid #fff;
+	border-top: 22px solid transparent;
+	border-bottom: 22px solid transparent;
+	transition: 0.3s ease;
+}
+ul.breadcrumbs li:after {
+	content: "";
+	position: absolute;
+	right: -10px;
+	top: -1px;
+	z-index: 10;
+	border-left: 10px solid #ccc;
+	border-top: 22px solid transparent;
+	border-bottom: 22px solid transparent;
+}
+ul.breadcrumbs li.active a {
+	color: #757575;
+	background: #f7f7f7;
+}
+
+ul.breadcrumbs li.first {
+	border-left: none;
+}
+ul.breadcrumbs li.first a {
+	font-size: 18px;
+	padding-left: 20px;
+	border-radius: 5px 0px 0px 5px;
+}
+ul.breadcrumbs li.last:before {
+	display: none;
+}
+ul.breadcrumbs li.last:after {
+	display: none;
+}
+ul.breadcrumbs li.last a {
+	padding-right: 20px;
+	border-radius: 0px 40px 40px 0px;
+}
+ul.breadcrumbs li a {
+	display: block;
+	font-size: 12px;
+	line-height: 40px;
+	color: #757575;
+	padding: 0px 15px 0px 25px;
+	text-decoration: none;
+	background: #fff;
+	border: 1px solid #ddd;
+	white-space: nowrap;
+	overflow: hidden;
+	transition: 0.3s ease;
+}
+
+
+
+/* AJUSTES DE DISEÑO WEB */
+.navbar-brand, .navbar-nav>li>a{
+	line-height: 22px !important;
+}
+
+.nav>li>a{
+	padding: 8px 15px !important;
+}
+
+.toggle{
+	padding-top: 12px !important;
+}
+
+.nav-md ul.nav.child_menu li:before{
+	margin-top: 12px !important;
+}
+
+.current-page:before{
+	background-color: #fff !important;
+}
+
+.nav_title span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	font-size: 20px !important;
+}

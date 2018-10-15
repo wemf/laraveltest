@@ -1,0 +1,68 @@
+.list-group-item.tam {
+    font-size: 20px;
+    text-align: center;
+}
+
+.itm-select{
+    background: aliceblue;
+}
+
+.ocultar{
+    display: none;
+}
+
+.list-group-item {    
+    width: 100%;
+}
+
+#itm {
+    width: 100%;
+}
+
+.container-check {   
+    border: 1px solid #ddd;	
+    margin: 10px;
+}
+
+
+
+.sombra {
+    color: rgba(0, 0, 0, 0.22);
+    text-align: center;
+    font-size: 20px;
+    margin: 10;
+}
+
+.badge2 {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #ec4f4f;
+    border-radius: 50%;
+    float: right;
+    width: 22px;
+    position: relative;
+    top: -8px;
+    right: -8px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.badge {	
+    cursor: pointer;
+}
+
+div#menu-der {    
+    top: -21px;
+}
+
+.checkbox.list-group-item {
+    margin-top: 0 !important;
+}

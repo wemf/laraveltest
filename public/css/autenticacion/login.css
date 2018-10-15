@@ -1,0 +1,59 @@
+.center{
+    text-align: center;
+}
+
+
+.row.autenticacion img {
+    width: 100%;
+    align-content: initial;
+    display: inline-block;
+}
+
+.circulos {
+    width: 100%;
+    border: 1px solid #999999;
+    border-radius: 100%;
+    margin-left: 7px;
+    padding: 10%;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.circulos:hover {
+    background: rgba(115, 135, 156, 0.1);
+}
+
+.formulario{
+    margin-top: 20px;
+}
+
+.col-md-12 #formulario-huella,
+.col-md-12 #formulario-token, 
+.col-md-12 #formulario-documento{
+    height: 0;
+    transition: height .4s ease;
+    overflow: hidden;
+}
+
+#formulario-huella img{
+    width: 150px;
+}
+
+#r-form-huella:checked ~ .row .col-md-12 #formulario-huella, 
+#r-form-token:checked ~ .row .col-md-12 #formulario-token, 
+#r-form-documento:checked ~ .row .col-md-12 #formulario-documento{
+    height: 260px;
+}
+
+#r-form-huella:checked ~ .row .col-md-6 #btn-huella,
+#r-form-token:checked ~ .row .col-md-6 #btn-token,
+#r-form-documento:checked ~ .row .col-md-6 #btn-documento{
+    background: rgba(115, 135, 156, 0.1);
+}
+
+@media screen and (max-width: 450px) {
+    .center h1 b, .center h1{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
